@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/root/SLAM/1.Eigen/build",
+  "command": "/usr/bin/g++   -I/root/SLAM/1.Eigen/, -I/root/SLAM/1.Eigen/SYSTEM/root/SLAM/1.Eigen, -I/usr/include/eigen3 -I/root/SLAM/1.Eigen/Utils/include   -Wall -g -g   -o CMakeFiles/1_Eigen.dir/main.cpp.o -c /root/SLAM/1.Eigen/main.cpp",
+  "file": "/root/SLAM/1.Eigen/main.cpp"
+},
+{
+  "directory": "/root/SLAM/1.Eigen/build/Utils",
+  "command": "/usr/bin/g++   -I/root/SLAM/1.Eigen/, -I/root/SLAM/1.Eigen/SYSTEM/root/SLAM/1.Eigen, -I/usr/include/eigen3 -I/root/SLAM/1.Eigen/Utils/, -I/root/SLAM/1.Eigen/Utils/SYSTEM/root/SLAM/1.Eigen/Utils, -I/root/SLAM/1.Eigen/Utils/include  -g   -o CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o -c /root/SLAM/1.Eigen/Utils/Src/eigenMatrix.cpp",
+  "file": "/root/SLAM/1.Eigen/Utils/Src/eigenMatrix.cpp"
+}
+]

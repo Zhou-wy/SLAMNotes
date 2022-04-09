@@ -1,0 +1,1 @@
+/usr/bin/g++   -Wall -g -g   CMakeFiles/1_Eigen.dir/main.cpp.o  -o 1_Eigen Utils/libUtils.a 
