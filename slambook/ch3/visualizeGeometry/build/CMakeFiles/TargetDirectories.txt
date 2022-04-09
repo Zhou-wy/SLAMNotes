@@ -1,0 +1,3 @@
+/Users/zwy/SLAM/slambook/ch3/visualizeGeometry/build/CMakeFiles/rebuild_cache.dir
+/Users/zwy/SLAM/slambook/ch3/visualizeGeometry/build/CMakeFiles/edit_cache.dir
+/Users/zwy/SLAM/slambook/ch3/visualizeGeometry/build/CMakeFiles/visualizeGeometry.dir

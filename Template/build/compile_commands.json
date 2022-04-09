@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/zwy/SLAM/Template/build/bin",
+  "command": "/usr/bin/clang++  -I/Users/zwy/SLAM/Template/include, -I/usr/local/include/Eigen -I/Users/zwy/SLAM/Template/src/include,  -std=c++11 -O3 -pthread -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o CMakeFiles/Template.dir/main.cpp.o -c /Users/zwy/SLAM/Template/src/main.cpp",
+  "file": "/Users/zwy/SLAM/Template/src/main.cpp"
+}
+]

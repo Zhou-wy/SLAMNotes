@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o"
+  "CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o"
   "libUtils.pdb"
   "libUtils.a"
 )

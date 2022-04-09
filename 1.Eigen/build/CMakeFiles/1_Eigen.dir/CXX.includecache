@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/root/SLAM/1.Eigen/Utils/Inc/eigenGeometry.h
+
 /root/SLAM/1.Eigen/Utils/Inc/eigenMatrix.h
 
 /root/SLAM/1.Eigen/main.cpp
@@ -15,6 +17,8 @@ Eigen/Core
 -
 Utils/Inc/eigenMatrix.h
 /root/SLAM/1.Eigen/Utils/Inc/eigenMatrix.h
+Utils/Inc/eigenGeometry.h
+/root/SLAM/1.Eigen/Utils/Inc/eigenGeometry.h
 
 /usr/include/eigen3/Eigen/Core
 src/Core/util/DisableStupidWarnings.h

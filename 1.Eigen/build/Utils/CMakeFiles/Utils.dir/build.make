@@ -81,17 +81,43 @@ Utils/CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o.provides: Utils/CMakeFiles/Util
 Utils/CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o.provides.build: Utils/CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o
 
 
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o: Utils/CMakeFiles/Utils.dir/flags.make
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o: ../Utils/Src/eigenGeometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SLAM/1.Eigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o"
+	cd /root/SLAM/1.Eigen/build/Utils && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o -c /root/SLAM/1.Eigen/Utils/Src/eigenGeometry.cpp
+
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.i"
+	cd /root/SLAM/1.Eigen/build/Utils && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SLAM/1.Eigen/Utils/Src/eigenGeometry.cpp > CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.i
+
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.s"
+	cd /root/SLAM/1.Eigen/build/Utils && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SLAM/1.Eigen/Utils/Src/eigenGeometry.cpp -o CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.s
+
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.requires:
+
+.PHONY : Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.requires
+
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.provides: Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.requires
+	$(MAKE) -f Utils/CMakeFiles/Utils.dir/build.make Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.provides.build
+.PHONY : Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.provides
+
+Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.provides.build: Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o
+
+
 # Object files for target Utils
 Utils_OBJECTS = \
-"CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o"
+"CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o" \
+"CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o"
 
 # External object files for target Utils
 Utils_EXTERNAL_OBJECTS =
 
 Utils/libUtils.a: Utils/CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o
+Utils/libUtils.a: Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o
 Utils/libUtils.a: Utils/CMakeFiles/Utils.dir/build.make
 Utils/libUtils.a: Utils/CMakeFiles/Utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/SLAM/1.Eigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libUtils.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/SLAM/1.Eigen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libUtils.a"
 	cd /root/SLAM/1.Eigen/build/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils.dir/cmake_clean_target.cmake
 	cd /root/SLAM/1.Eigen/build/Utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utils.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +127,7 @@ Utils/CMakeFiles/Utils.dir/build: Utils/libUtils.a
 .PHONY : Utils/CMakeFiles/Utils.dir/build
 
 Utils/CMakeFiles/Utils.dir/requires: Utils/CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o.requires
+Utils/CMakeFiles/Utils.dir/requires: Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o.requires
 
 .PHONY : Utils/CMakeFiles/Utils.dir/requires
 

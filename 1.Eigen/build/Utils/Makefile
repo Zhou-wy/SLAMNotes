@@ -125,6 +125,33 @@ Utils/fast:
 	cd /root/SLAM/1.Eigen/build && $(MAKE) -f Utils/CMakeFiles/Utils.dir/build.make Utils/CMakeFiles/Utils.dir/build
 .PHONY : Utils/fast
 
+Src/eigenGeometry.o: Src/eigenGeometry.cpp.o
+
+.PHONY : Src/eigenGeometry.o
+
+# target to build an object file
+Src/eigenGeometry.cpp.o:
+	cd /root/SLAM/1.Eigen/build && $(MAKE) -f Utils/CMakeFiles/Utils.dir/build.make Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o
+.PHONY : Src/eigenGeometry.cpp.o
+
+Src/eigenGeometry.i: Src/eigenGeometry.cpp.i
+
+.PHONY : Src/eigenGeometry.i
+
+# target to preprocess a source file
+Src/eigenGeometry.cpp.i:
+	cd /root/SLAM/1.Eigen/build && $(MAKE) -f Utils/CMakeFiles/Utils.dir/build.make Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.i
+.PHONY : Src/eigenGeometry.cpp.i
+
+Src/eigenGeometry.s: Src/eigenGeometry.cpp.s
+
+.PHONY : Src/eigenGeometry.s
+
+# target to generate assembly for a file
+Src/eigenGeometry.cpp.s:
+	cd /root/SLAM/1.Eigen/build && $(MAKE) -f Utils/CMakeFiles/Utils.dir/build.make Utils/CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.s
+.PHONY : Src/eigenGeometry.cpp.s
+
 Src/eigenMatrix.o: Src/eigenMatrix.cpp.o
 
 .PHONY : Src/eigenMatrix.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Utils"
 	@echo "... edit_cache"
+	@echo "... Src/eigenGeometry.o"
+	@echo "... Src/eigenGeometry.i"
+	@echo "... Src/eigenGeometry.s"
 	@echo "... Src/eigenMatrix.o"
 	@echo "... Src/eigenMatrix.i"
 	@echo "... Src/eigenMatrix.s"

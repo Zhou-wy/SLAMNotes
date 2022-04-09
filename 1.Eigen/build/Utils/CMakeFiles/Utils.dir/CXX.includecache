@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/root/SLAM/1.Eigen/Utils/Inc/eigenGeometry.h
+
 /root/SLAM/1.Eigen/Utils/Inc/eigenMatrix.h
+
+/root/SLAM/1.Eigen/Utils/Src/eigenGeometry.cpp
+iostream
+-
+cmath
+-
+Eigen/Core
+-
+Eigen/Geometry
+-
+../Inc/eigenGeometry.h
+/root/SLAM/1.Eigen/Utils/Inc/eigenGeometry.h
 
 /root/SLAM/1.Eigen/Utils/Src/eigenMatrix.cpp
 iostream

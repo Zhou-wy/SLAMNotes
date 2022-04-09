@@ -1,2 +1,2 @@
-/usr/bin/ar qc libUtils.a  CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o
+/usr/bin/ar qc libUtils.a  CMakeFiles/Utils.dir/Src/eigenMatrix.cpp.o CMakeFiles/Utils.dir/Src/eigenGeometry.cpp.o
 /usr/bin/ranlib libUtils.a
